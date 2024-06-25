@@ -1,0 +1,1 @@
+# quarkus-mulit-module
