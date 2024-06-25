@@ -5,7 +5,7 @@
     <parent>
         <groupId>at.ruhsi.quarkus</groupId>
         <artifactId>quarkus-parent</artifactId>
-        <version>1.0.0</version>
+        <version>${revision}</version>
     </parent>
 
     <artifactId>quarkus-test-1</artifactId>
@@ -13,7 +13,7 @@
     <dependencies>
         <dependency>
             <groupId>io.quarkus</groupId>
-            <artifactId>quarkus-resteasy-reactive</artifactId>
+            <artifactId>quarkus-rest</artifactId>
         </dependency>
 
         <dependency>
